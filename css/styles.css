@@ -23,12 +23,6 @@ ul {
   padding: 0;
 }
 
-:hover,
-:focus {
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .container {
   max-width: 1158px;
   margin: 0 auto;
@@ -68,7 +62,6 @@ body {
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 1;
 }
 
 .header-block {
@@ -94,6 +87,11 @@ body {
 
 .header-nav {
   display: flex;
+}
+
+.header-link {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav .header-link {
@@ -185,6 +183,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-secondary-text);
   text-decoration: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contact:hover {
@@ -269,6 +269,8 @@ body {
   cursor: pointer;
   width: 170px;
   border: transparent;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-button:hover {
@@ -341,12 +343,15 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-close:hover {
-  background: #e7e9fc;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  fill: #ffffff;
+  background: #404BBF;
+  border-radius: 50%;
 }
 
 /* --- BENEFITS --- */
@@ -541,6 +546,9 @@ body {
   object-position: center;
   padding-top: 16px;
   padding-left: 32px;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-icon {
@@ -594,6 +602,9 @@ body {
   padding: 8px 16px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .products-button:hover {
@@ -640,6 +651,9 @@ body {
 
 .gallery-link {
   display: block;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .gallery-link:hover {
@@ -830,6 +844,9 @@ body {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-soc-link:hover {
